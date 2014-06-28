@@ -1,0 +1,104 @@
+@import "bootstrap";
+@import url(http://fonts.googleapis.com/css?family=Audiowide);
+
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+.col-xs-5 a{
+	padding:0, 15, 0, 15;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+
+.circle {
+    font-weight:bold;
+    font-style: italic;
+    position: relative;
+    border-radius: 100%;
+    background: #f84342;
+    border: 1px solid #F7F7F7;
+    width: 80px;
+    height: 80px;
+    margin: 10px 10px;
+    text-align: center;
+    color: #FFF;
+    font-size: 10px;
+    line-height: 16px;
+    cursor: pointer;
+    transform:rotate(11deg);
+    -ms-transform:rotate(11deg); /* IE 9 */
+    -webkit-transform:rotate(11deg); /* Opera, Chrome, and Safari */
+}
+
+.slogan {
+  font-family: 'Audiowide', Arial, serif; font-weight: 400; 
+  font-style: italic;
+  padding-top: 26px;
+}
+
+.about {
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+}
+
+.links a {
+  color:black;
+  font-size: 25px;
+  border-bottom: 1px solid #dfdfdf;
+  font-family: 'Audiowide', Arial, serif; font-weight: 400; 
+}
+
+h1 {
+  color: white;
+  font-family: 'Audiowide', Arial, serif; font-weight: 400; 
+  font-weight: 600;
+  letter-spacing: -1.5px;
+}
+
+h2 {
+	color: white;
+  font-family: 'Audiowide', Arial, serif; font-weight: 400; 
+  font-weight: 600;
+  letter-spacing: -1.5px;
+}
+
+
+.next-quote {
+  color:#f84342;
+  font-family: 'Audiowide', Arial, serif; font-weight: 400; 
+  font-size:20px;
+}
+
+.logo:hover {
+  text-decoration:none;
+}
+
+
+/*
+#back{
+	background-image: url(/assets/back.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    position:fixed;
+    z-index:-1;
+    left:0;
+    top:150px;
+}
+*/
