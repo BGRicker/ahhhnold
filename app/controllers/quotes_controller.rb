@@ -12,10 +12,19 @@ class QuotesController < ApplicationController
   		redirect_to root_path
   	end
 
+  	def show
+  		@quote = Quote.find(params[:id])
+  	end
+
+	def destroy
+		@quote = Quote.find(params[:id])
+		@quote.destroy
+		redirect_to root_path
+	end
+
   	private
 
   	def about
-
   	end
 
   	def quote_params

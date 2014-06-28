@@ -5,6 +5,27 @@
 html {
   position: relative;
   min-height: 100%;
+  background-color: black;
+}
+body {
+	background-color: black;
+}
+
+#col{
+	color: #7f8c8d;
+	font-size:2em;
+}
+
+.container{
+	opacity:.9;
+	left:0px;
+	width:70%;
+	top:20%;
+	position:absolute;
+}
+
+#show{
+	opacity:.9;
 }
 
 body {
@@ -22,9 +43,8 @@ body {
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 60px;
-  background-color: #f5f5f5;
-}
 
+}
 
 .circle {
     font-weight:bold;
@@ -61,28 +81,24 @@ body {
 }
 
 .links a {
-  color:black;
+  color:#c0392b;
   font-size: 25px;
   border-bottom: 1px solid #dfdfdf;
   font-family: 'Audiowide', Arial, serif; font-weight: 400; 
 }
 
 h1 {
-  color: black;
+  color: #7f8c8d;
   font-family: 'Audiowide', Arial, serif; font-weight: 400; 
   font-weight: 600;
   letter-spacing: -1.5px;
 }
 
 h2 {
-	color: black;
+	color: #bdc3c7;
   font-family: 'Audiowide', Arial, serif; font-weight: 400; 
   font-weight: 600;
   letter-spacing: -1.5px;
-}
-
-h2 span {
-  color: #dddddd;
 }
 
 
@@ -102,16 +118,17 @@ h2 span {
   }
 }
 
-/*
+::selection {
+  background-color: #f84342;
+}
+
 #back{
 	background-image: url(/assets/back.png);
-    background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
-    position:fixed;
     z-index:-1;
-    left:0;
-    top:150px;
+    position:absolute;
+    left:65%;
+    top:30%;
 }
-*/
